@@ -12,7 +12,7 @@ public class FractalWrapper2 extends JFrame {
 	
 	public FractalWrapper2() {
         setSize(3*FRAMESIZE/2+HRZSPACE, FRAMESIZE+BTNSPACE);
-		add(new JuliaSets2(FRAMESIZE, FRAMESIZE));
+		add(new Fractals2(FRAMESIZE, FRAMESIZE));
         setResizable(false);
         setTitle("Fractals");
         setLocationRelativeTo(null);

@@ -29,7 +29,7 @@ import java.io.IOException;
 import java.util.Calendar;
 
 @SuppressWarnings("serial")
-public class JuliaSets2 extends JPanel implements ActionListener {
+public class Fractals2 extends JPanel implements ActionListener {
 	//to do: dimension-based rounding
 	//progress thread
 	private int vOffset;
@@ -71,7 +71,7 @@ public class JuliaSets2 extends JPanel implements ActionListener {
 
 	private final double SIZE = 1.5; //how much of the coordinate plane from the origin to begin with
 
-	public JuliaSets2(int xSize, int ySize) {
+	public Fractals2(int xSize, int ySize) {
 		super(new GridBagLayout());                       				// set up graphics window
 		setBackground(Color.LIGHT_GRAY);
 		addMouseListener(new MAdapter());
@@ -305,7 +305,6 @@ public class JuliaSets2 extends JPanel implements ActionListener {
 	}
 
 	//380-750, using http://www.efg2.com/Lab/ScienceAndEngineering/Spectra.htm chart
-	//I used to think every color was in the spectrum...
 	public static Color makeColor2(int input) {
 		if (input < 0) {
 			return Color.BLACK;
