@@ -28,6 +28,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
 
+//need swing
 @SuppressWarnings("serial")
 public class Fractals2 extends JPanel implements ActionListener {
 	//to do: dimension-based rounding
